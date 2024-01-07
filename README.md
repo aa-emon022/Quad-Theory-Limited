@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## 🔗 Links
 [![Project] (https://main--sage-conkies-30db9f.netlify.app/)
 
-# I used tailwind for responsiveness. I have modified the Responsive to make it responsive because the phone device of the phone can be different like iPhone 4 320px or other phone 550px then many issues of responsive why I made a custom screen with 320 480 600 like this
+### I used tailwind for responsiveness. I have modified the Responsive to make it responsive because the phone device of the phone can be different like iPhone 4 320px or other phone 550px then many issues of responsive why I made a custom screen with 320 480 600 like this
 
 ## Here it is asked to show data by fetching data from API?
  There are two sliders but first, you have to show different data in the slider. Here is how I solved the problem.?
