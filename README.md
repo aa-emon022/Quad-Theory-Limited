@@ -2,35 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+--> I used tailwind for responsiveness. I have modified the Responsive to make it responsive because the phone device of the phone can be different like iPhone 4 320px or other phone 550px then many issues of responsive why I made a custom screen with 320 480 600 like this
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Here it is asked to show data by fetching data from API?
+ There are two sliders but first, you have to show different data in the slider. Here is how I solved the problem.?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The IDs of the first data to be shown have been kept in a variable. The data coming from the API is kept in the variable. Filtering (filter method)  After filtering I checked whether I have these data through includes().
+- Then I gave sort(). As if the data that I want to show first for all the data
+  
+- I have shown five data here. It is created by me through pagination without using any package
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Here when I fetched the data from the API, I placed the data in a global variable created using the usecontext().. As a result, we got rid of Prop Drilling.
+## When I am deploying the project to the server the data is not coming from the API so I have given a screenshot of how I am creating the slider.
+![App Screenshot]()
