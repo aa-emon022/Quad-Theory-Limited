@@ -9,7 +9,7 @@ import Loading from "../LazyLoading/LazyLoader";
 export default function SliderDataTwo() {
   const data = useContext(dataContext);
 
-  if (!data || !data.data ) {
+  if (!data || !data.data || !data.data.Items) {
    
     return (
       <div>
@@ -44,7 +44,7 @@ export default function SliderDataTwo() {
   console.log(filteredData);
   return (
     <>
-      <div className="container px-[1rem] pt-[3rem] lg:px-0 lg:mx-auto">
+      <div className="container px-[1rem] pt-[3rem] xl:px-0 xl:mx-auto">
         <div className=" ">
           {/* bar */}
           <div className="flex  justify-between mb-6  ">

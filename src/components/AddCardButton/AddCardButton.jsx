@@ -18,7 +18,7 @@ const AddCardButton = () => {
 
   return (
    <>
-   <div className="bg-gray-200 md:w-1/2 flex flex-wrap  flex-col ">
+   <div className="bg-gray-200 md:w-1/2 flex flex-wrap  flex-col pt-[3rem]">
         {data && data.map((item, index) => (
           <p key={index} className="bg-gray-200 w-screen p-2 mb-2 flex justify-center items-center rounded">{item}</p>
         ))}
