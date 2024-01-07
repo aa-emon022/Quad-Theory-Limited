@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
+[![Project] (https://main--sage-conkies-30db9f.netlify.app/)
 --> I used tailwind for responsiveness. I have modified the Responsive to make it responsive because the phone device of the phone can be different like iPhone 4 320px or other phone 550px then many issues of responsive why I made a custom screen with 320 480 600 like this
 
 ## Here it is asked to show data by fetching data from API?
@@ -15,3 +15,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Here when I fetched the data from the API, I placed the data in a global variable created using the usecontext().. As a result, we got rid of Prop Drilling.
 ## When I am deploying the project to the server the data is not coming from the API so I have given a screenshot of how I am creating the slider.
 ![App Screenshot] (https://ibb.co/7K2Hx5F)
+
