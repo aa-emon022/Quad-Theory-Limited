@@ -9,8 +9,8 @@ import Loading from "../LazyLoading/LazyLoader";
 export default function SliderDataTwo() {
   const data = useContext(dataContext);
 
-  if (!data || !data.data || !data.data.Items) {
-    // Handle the case where data is not available
+  if (!data || !data.data ) {
+   
     return (
       <div>
         <Loading />
