@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Loading() {
+export default function Load() {
   return (
     <>
       <div className="container w-screen px-5  py-24 mx-auto">

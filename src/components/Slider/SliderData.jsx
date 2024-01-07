@@ -4,7 +4,7 @@ import dataContext from "@/Context/dataContext";
 import Image from "next/image";
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
-import Loading from "../Loader/loader";
+import Loading from "../LazyLoading/LazyLoader";
 
 export default function SliderDataTwo() {
   const data = useContext(dataContext);
