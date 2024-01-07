@@ -14,4 +14,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Here when I fetched the data from the API, I placed the data in a global variable created using the usecontext().. As a result, we got rid of Prop Drilling.
 ## When I am deploying the project to the server the data is not coming from the API so I have given a screenshot of how I am creating the slider.
-![App Screenshot](https://drive.google.com/file/d/1xCWaGOR-_dNN6fl8jZolsUZ-WLwuBlE8/view?usp=sharing)
+![App Screenshot](https://ibb.co/7K2Hx5F)
